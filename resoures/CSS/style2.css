@@ -1,0 +1,90 @@
+/* **********************
+color :   #c00
+Reusable components
+********************* */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    font-family: "Roboto+Condensed" "Lato", "Ariel", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/* **********************
+HEADER
+********************* */
+
+.nav1 {
+    padding: 15px 15px;
+    background-color: #c00;
+    color: #fff;
+}
+
+h3 {
+    display: inline;
+    text-align: left;
+    font-size: 80%;
+}
+
+.find {
+    text-align: left;
+    font-size: 130%;
+    color: #fff;
+    display: inline;
+    float: right;
+}
+
+/* 
+select {
+    float: right;
+    text-align: right;
+    max-width: 50px;
+    display: inline;
+} */
+
+.home-nav {
+    list-style: none;
+    float: right;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.logo-2 {
+    width: 20%;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    color: #ae0005;
+}
+
+/* **********************
+PARAGRAPH
+********************* */
+
+.row {
+    max-width: 1220px;
+}
+
+.bookcover img,
+.page-1 img {
+    width: 500px;
+    margin: 20px 0;
+}
